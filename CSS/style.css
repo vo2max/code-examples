@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.col_center, .col_left, .col_right {
+    padding: 10px;
+}
+
+.col_center {
+    background: #6996D3;
+    float: left;
+    min-width: 100px;
+    width: calc(100% - 440px); /* remove the outside columns (including margins) */
+}
+
+.col_left {
+    background: #4380D3;
+    float: left;
+    width: 180px;
+}
+
+.col_right {
+    background: #0F4FA8;
+    float: right;
+    width: 200px;
+}
+
+div {
+    min-height: 100px;
+}
+
+.clearfix:after { /* 'wrap' the floating elements */
+    clear: both;
+    content: " ";
+    display: block; 
+    height: 0; 
+    visibility: hidden;
+}

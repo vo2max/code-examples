@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Exercise - Zillow</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<h1>JavaScript Exercise</h1>
+
+	<p>Write a cross­browser (Firefox, Chrome, IE) JavaScript function or class that flexibly 
+		expands a textarea, based on user input. So instead of a user automatically getting a 
+		scrollbar, as they type or paste into the textarea, it dynamically grows larger (just 
+		in height, not width). There should be a user configurable min and max height option, 
+		so at a certain size the scrollbars appear. You may use Prototype or jQuery, but no 
+		additional libraries. For an example of the behavior, enter a lot of text into a 
+		Facebook status box.</p>
+
+	<form action="#" method="post">
+		<textarea name="comments" rows="1" cols="40"></textarea>
+	</form>
+
+	<p><a href="http://codepen.io/vo2max/pen/igGBv" target="_blank">CodePen.io Demo</a></p>
+
+	<script src="js/vendor/jquery-2.1.0.min.js"></script>
+	<script src="js/jquery.textarea.resize.js"></script>
+
+	<script>
+		$('textarea').textareaResize({minHeight:16, maxHeight:140});
+	</script>
+
+</body>
+</html>
