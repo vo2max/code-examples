@@ -1,7 +1,7 @@
 Code Examples
 =============
 
-These are short exercises involving modern **front end technology**.
+These are short exercises demonstrating a **front end technology** skillset.
 
 Exercises
 ---------
@@ -16,4 +16,4 @@ Exercises
 
 5. [MSSQL](https://github.com/vo2max/code-examples/tree/master/MSSQL) - A query based upon two fields 
 
-**Note:** All exercises include references to the same examples published on [CodePen](http://codepen.io).
+**Note:** When relevant, exercises include references to the same examples published on [CodePen](http://codepen.io).
